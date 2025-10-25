@@ -3,12 +3,12 @@
 1. 2 screens
 2. home and add_expenses screen
   
-. Builds the main content of the Home Screen
- Income input field with validation
- Button to navigate to Expense Screen with animation
- code :  build, _buildHomeBody, _buildIncomeInput, _buildNavigateButton
+Builds the main content of the Home Screen
+Income input field with validation
+Button to navigate to Expense Screen with animation
+code :  build, _buildHomeBody, _buildIncomeInput, _buildNavigateButton
 
-  Expense Screen: 
+Expense Screen: 
 •	AppBar: "Expenses for Hammad".
 •	Text: Displays non-editable income.
 •	Text/TextField: Seven categories with number inputs.
