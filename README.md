@@ -15,10 +15,14 @@ Expense Screen:
 •	ElevatedButton: Calculates expenses and shows result.
 
 1. Layout Widgets: 
-I used Column to vertically arrange elements like the welcome text, input, and button on the Home Screen, ensuring a clean, centered layout. Row aligns category labels and text fields horizontally on the Expense Screen for balanced spacing. Card adds visual depth with elevation, SingleChildScrollView ensures scrollability, and SafeArea avoids screen notches.
+I used Column to vertically arrange elements like the welcome text, input, and button on the Home Screen, ensuring a clean, centered layout.
+Row aligns category labels and text fields horizontally on the Expense Screen for balanced spacing.
+Card adds visual depth with elevation, SingleChildScrollView ensures scrollability, and SafeArea avoids screen notches.
 
 2.Value Widgets and Dynamic Data: 
-Text displays static (e.g., "Welcome, Hammad") and dynamic data (e.g., income, result message) using widget.income and _message. TextField captures user input with TextEditingController, updating dynamically with error text for invalid inputs. ElevatedButton triggers navigation or calculations, showing feedback via SnackBar or result messages.
+Text displays static (e.g., "Welcome, Hammad") and dynamic data (e.g., income, result message) using widget.income and _message. 
+TextField captures user input with TextEditingController, updating dynamically with error text for invalid inputs. 
+ElevatedButton triggers navigation or calculations, showing feedback via SnackBar or result messages.
 
 3.Flutter UI Rebuild: 
 Flutter rebuilds the UI when setState is called, updating _message or _isButtonPressed to reflect changes like result messages or button animations. The FadeInAnimation widget uses AnimationController to dynamically animate UI elements.
@@ -33,7 +37,7 @@ flutter run
 
 
 
-
+//
 
 
 ## Screen Shots
